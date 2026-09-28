@@ -1,0 +1,36 @@
+{
+  "bundle_version": "0.1",
+  "artifact": {
+    "filename": "suspicious_payroll_update.eml",
+    "sha256": "c7c6d4a0676fc297d6f7550000fa452f32df43504f1812dc472bea343f198599",
+    "size_bytes": 1325,
+    "collected_at": "2026-09-27T18:44:44Z",
+    "source": "mailguard_final"
+  },
+  "email": {
+    "message_id": "<phish987@totally-different-domain.ru>",
+    "received_at": "2026-09-15T10:40:50Z",
+    "subject": "URGENT: Update payroll bank details immediately - confidential",
+    "from_addr": "ceo.rajesh@recipient-exarnple.com",
+    "body_norm": "This is urgent and confidential. Account will be suspended if you do not act immediately. Please update the payroll bank account and routing number for this month's direct deposit using the new payment instructions before end of day. Do not tell anyone else about this, handle it discreetly on behalf of the CEO. Click here to verify your account: https://paypal.com/account/verify - CEO"
+  },
+  "part1": {
+    "spf": "fail",
+    "dkim": "none",
+    "dmarc": "fail",
+    "trust_boundary_ip": null
+  },
+  "part2": {
+    "asn": null,
+    "asn_org": null,
+    "urls": [
+      {
+        "url": "http://secure-login-paypal.verify-account-now.ru/reset",
+        "final_url": "http://secure-login-paypal.verify-account-now.ru/reset",
+        "final_domain": "secure-login-paypal.verify-account-now.ru"
+      }
+    ],
+    "attachments": [],
+    "risk_score": 0.531
+  }
+}

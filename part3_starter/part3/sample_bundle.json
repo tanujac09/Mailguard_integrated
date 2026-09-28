@@ -1,0 +1,42 @@
+{
+  "bundle_version": "0.1",
+  "artifact": {
+    "filename": "email_100.eml",
+    "sha256": "2e6746115a8bd8679865ade8e16a42a15f1ddec536ca52136e6f7483dbefdd35",
+    "size_bytes": 301,
+    "collected_at": "2026-09-19T09:20:00Z",
+    "source": "demo"
+  },
+  "email": {
+    "message_id": "<100@demo>",
+    "received_at": "2026-09-19T09:20:00Z",
+    "subject": "Invoice",
+    "from_addr": "accounts@example-pay.net",
+    "body_norm": "Dear customer your invoice INV-88000 is overdue. Please verify your payment details immediately using the secure link below to avoid suspension of services. Contact us if you have questions. Regards accounts department"
+  },
+  "part1": {
+    "spf": "fail",
+    "dkim": "none",
+    "dmarc": "fail",
+    "trust_boundary_ip": "203.0.113.45",
+    "lookalike_of": "example-supplier.com"
+  },
+  "part2": {
+    "asn": 64500,
+    "asn_org": "ExampleNet",
+    "urls": [
+      {
+        "url": "https://track.mailer.example/r?id=0",
+        "final_url": "https://pay-verify.example/inv?id=8800",
+        "final_domain": "pay-verify.example"
+      }
+    ],
+    "attachments": [
+      {
+        "filename": "invoice.zip",
+        "sha256": "c13cb46ba1f35a90d12fc483c097aff478342f12a85700e5af8c6bf5cc3fa02d"
+      }
+    ],
+    "risk_score": 0.9
+  }
+}

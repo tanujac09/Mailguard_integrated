@@ -1,0 +1,30 @@
+{
+  "bundle_version": "0.1",
+  "artifact": {
+    "filename": "Postponed Lec.eml",
+    "sha256": "18c54cda0568bc999bd350020a8669dbefeb1a3b9aacfc2d529e54de0b20f54b",
+    "size_bytes": 7308,
+    "collected_at": "2026-09-27T19:17:08Z",
+    "source": "mailguard_final"
+  },
+  "email": {
+    "message_id": "<CALuqCbEjYpAv_VCZNG=x11cp5-o6SposkPO1dsmpReRaP-8srg@mail.gmail.com>",
+    "received_at": "2026-09-22T06:07:59Z",
+    "subject": "Postponed Lec",
+    "from_addr": "tanuja.chavan@cumminscollege.in",
+    "body_norm": "Hey! Our lecture got postponed. Come to college after 12. Don't forget to get my notebooks pls"
+  },
+  "part1": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "fail",
+    "trust_boundary_ip": "209.85.220.41"
+  },
+  "part2": {
+    "asn": 15169,
+    "asn_org": "Google LLC",
+    "urls": [],
+    "attachments": [],
+    "risk_score": 0.263
+  }
+}

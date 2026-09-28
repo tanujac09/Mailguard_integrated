@@ -1,0 +1,261 @@
+Delivered-To: veenashastri2006@gmail.com
+Received: by 2002:a05:6f02:64a3:b0:12d:a2b8:e056 with SMTP id q35csp5174571rce;
+        Mon, 14 Sep 2026 22:36:22 -0700 (PDT)
+X-Received: by 2002:a05:620a:258b:b0:939:e5a3:10dd with SMTP id af79cd13be357-93a297cac1dmr813188285a.2.1789450582643;
+        Mon, 14 Sep 2026 22:36:22 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1789450582; cv=none;
+        d=google.com; s=arc-20260327;
+        b=UptjSpKqQbPKJ4v1YbiCioV0lbDfB8XVs0T505LovOKawUs+oQS6UcH2w+hIsygvN6
+         35lV/VAgAsBpFAv8SPinyBzrmR7CvTPRtqBYJ+LFxt10t7YuvIWzLsym5L6QfRgdum1c
+         QDepHcCm6nok3j/q1xe+Kwnmtv3k8KyFeAYJx9kvvlgz3L1xoMq+/7E70cv71bGF4+Cj
+         G2P9AJqt8IFPUtU2dzPPZJRQkEauiWqKuxZ9DiuppzxthXvZRfyFErBUjwmx9PaCm95r
+         Vp6FgTqrz6fJfR6WyH9EwyJEm+VwQHjn2o5ypoPn9e4Dx0F98bUzGih0iwKQGKS/Nap0
+         m1XA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=date:list-unsubscribe-post:feedback-id:reply-to:list-unsubscribe
+         :content-transfer-encoding:mime-version:message-id:subject:from:to
+         :dkim-signature:dkim-signature;
+        bh=jINY6vuCInns8mV6AENnKqaG7kDDWt5z6OcN9fHMc1Y=;
+        fh=FPmRI0QecgTf3tIEmoQn3ZrbI7NhVdvj/vxQdV06VT4=;
+        b=YLEQH3o3NxHikswaAnIJttG0bFvEfmWdpZo6s/P/fDC3x7tUFyWCtCLX2e46OyKI01
+         gt+e4RonAaCjI8BtIqi2r5OSitTu8qh/RkL6JKVxc552zqOypdNa719EwHR97jpOUCOx
+         Nt4ESzVe07Pc1pEyAl7sbPuyQDR/5WTZVrt9m/5atGKhmT3ACSPLbYk0X78biYvc0qXt
+         fSlmyU8PhoViX7PHZNVYQ2rNS1rRJS/O72SlOSVMpwAybzLBolb7jK5suHz0QtXhl+n9
+         wZ67cucDt8R0DE5GPCijjYQtenddYC3XSPwSnXSsmpfkwVpfMRrFdVXIw/Ee0Hth+B/z
+         ltWw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@nopaperforms.info header.s=pepipost header.b=nNrsWY1k;
+       dkim=pass header.i=@env.etransmail.com header.s=fnc header.b=N48CsEbH;
+       spf=pass (google.com: domain of 17894106014897890-197048-1-gmail.com@delivery.pcu.edu.in designates 103.52.182.49 as permitted sender) smtp.mailfrom=17894106014897890-197048-1-gmail.com@delivery.pcu.edu.in;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=pcu.edu.in
+Return-Path: <17894106014897890-197048-1-gmail.com@delivery.pcu.edu.in>
+Received: from imta1-182.49.ncm01.com (imta1-182.49.ncm01.com. [103.52.182.49])
+        by mx.google.com with ESMTPS id af79cd13be357-939e80c9675si1158243885a.236.2026.09.14.22.36.22
+        for <veenashastri2006@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 14 Sep 2026 22:36:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 17894106014897890-197048-1-gmail.com@delivery.pcu.edu.in designates 103.52.182.49 as permitted sender) client-ip=103.52.182.49;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@nopaperforms.info header.s=pepipost header.b=nNrsWY1k;
+       dkim=pass header.i=@env.etransmail.com header.s=fnc header.b=N48CsEbH;
+       spf=pass (google.com: domain of 17894106014897890-197048-1-gmail.com@delivery.pcu.edu.in designates 103.52.182.49 as permitted sender) smtp.mailfrom=17894106014897890-197048-1-gmail.com@delivery.pcu.edu.in;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=pcu.edu.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=pepipost; d=nopaperforms.info;
+ h=To:From:Subject:Message-Id:MIME-Version:Content-Type:Content-Transfer-Encoding:List-Unsubscribe:Reply-To:Feedback-Id:Date:from:to:subject;
+ bh=jINY6vuCInns8mV6AENnKqaG7kDDWt5z6OcN9fHMc1Y=;
+ b=nNrsWY1kjN4T+hV6rkwThtsL9+qK56naUbgtz/TM+8qcK/xZxPSKfRFAzuKGC6xNVELeT/I20m+x
+   pt2XeVNI4RgQqMwqcn/gVa6C2pjEahvasKhCT8Gh1+JnrQPxLrYXFmi2BB6zxbNfSG2xG8y1BfLK
+   R/epxueSWhIovGUrhsQ=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=fnc; d=env.etransmail.com;
+ h=To:From:Subject:Message-Id:MIME-Version:Content-Type:Content-Transfer-Encoding:List-Unsubscribe:Reply-To:Feedback-Id:Date:from:to:subject;
+ bh=jINY6vuCInns8mV6AENnKqaG7kDDWt5z6OcN9fHMc1Y=;
+ b=N48CsEbH0A2QBilAOrOzrbpf89fLB6eth+jQjpPGGHhIrpryTp81HdNbiUzwdnX9LrAYkfw/qpF/
+   cTJW2WXaNXbJMJLg25PJ1XDzKtV23ya62gcGaGhx+S7Mk5gplE4teJYejmuif4KOJSLopTCl91FD
+   lEj+UG/Hcfx07UWGWtk=
+To: <veenashastri2006@gmail.com>
+From: =?UTF-8?B?UGltcHJpIENoaW5jaHdhZCBVbml2ZXJzaXR5?= <admissions@pcu.edu.in>
+Subject: =?UTF-8?B?8J+aqCBTcG90IEFkbWlzc2lvbnMgT3BlbiB8IExpbWl0ZWQgU2VhdHMgYXQgUENFVOKAmXMgUGltcHJpIENoaW5jaHdhZCBVbml2ZXJzaXR5?=
+Message-Id: <zxdzhs17894106014897890@pcu.edu.in>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_----------=_1789450489145473112"
+Content-Transfer-Encoding: binary
+List-Unsubscribe: <https://delivery.pcu.edu.in/MPBHZINGF?id=197048=YUVRCF8FUwJaSBRGFxVCERFFExISEEJFEhYZRRQRREMUGUEZRhJDFkIUFEYXFUIREVVPRFdVDARBXlgWQEMNUQQJV3kBXwJfDhpXCVpJUwYJXAcDAgZSVAYOAFIMCFQfXE0VSRUITBkGUVgPQVAQSB8VUEccVQYQHF9XSnlhJitucC9+IA0KUh5CBw==>, <mailto:17894106014897890-197048-fncunsub@usub.ftrans03.com?subject=Unsubscribe>
+Reply-To: admissions@pcu.edu.in
+Feedback-Id: 197048:202609:1:falconide
+X-Dkim-Options: 
+X-Fncid: 197048-17894106014897890-0
+X-Mta-Source: pcu5674promo_197048
+X-Injtime: 1789450489
+X-Traffic-Type: 197048-2
+X-Mailer: NetcoreCloud Mailer
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Date: Tue, 15 Sep 2026 11:06:22 +0530
+
+This is a multi-part message in MIME format.
+
+--_----------=_1789450489145473112
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+                                                                           =
+                                                                           =
+        Dear Student, =C2=A0 =F0=9F=9A=A8 THIS IS YOUR LAST CHANCE! =C2=A0 =
+Begin your academic journey at PCET=E2=80=99s Pimpri Chinchwad University f=
+or AY 2026=E2=80=9327. =C2=A0 =F0=9F=8E=93 SPOT ADMISSIONS ARE NOW OPEN , b=
+ut ONLY A FEW SEATS ARE LEFT. =C2=A0 At PCET=E2=80=99s Pimpri Chinchwad Uni=
+versity , students get access to career-focused education along with a Cent=
+ralized Placement Cell that supports students through: =C2=A0 =F0=9F=92=BC =
+Career Guidance =F0=9F=A4=9D Internships & Industry Interactions =F0=9F=9A=
+=80 Placement Opportunities =F0=9F=8C=9F Industry-oriented learning =C2=A0 =
+Why Wait? =C2=A0 =F0=9F=8E=93 Spot Admission =E2=80=93 Limited Seats =F0=9F=
+=92=BC Centralized Placement Cell =F0=9F=9A=80 Career-focused & industry-or=
+iented learning =F0=9F=8C=9F Programs designed to prepare students for futu=
+re opportunities =F0=9F=9A=A8 NO FURTHER DEADLINE EXTENSION. =E2=8F=B0 Take=
+ the final step towards your future. =C2=A0 =F0=9F=91=89 APPLY NOW: https:/=
+/apply.pcu.edu.in/ =C2=A0 Secure your seat today before the remaining seats=
+ are filled.                                                Apply Now      =
+                                                    =C2=A0
+Click here to unsubscribe=
+=
+
+--_----------=_1789450489145473112
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www=
+.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3=
+.org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:s=
+chemas-microsoft-com:office:office"><head><!--[if gte mso 9]><xml>  <o:Offi=
+ceDocumentSettings>    <o:AllowPNG/>    <o:PixelsPerInch>96</o:PixelsPerInc=
+h>  </o:OfficeDocumentSettings></xml><![endif]-->  <meta http-equiv=3D"Cont=
+ent-Type" content=3D"text/html; charset=3DUTF-8">  <meta name=3D"viewport" =
+content=3D"width=3Ddevice-width, initial-scale=3D1.0">  <meta name=3D"x-app=
+le-disable-message-reformatting">  <!--[if !mso]><!--><meta http-equiv=3D"X=
+-UA-Compatible" content=3D"IE=3Dedge"><!--<![endif]-->  <title></title>    =
+  <style type=3D"text/css">            @media only screen and (min-width: 5=
+20px) {        .u-row {          width: 500px !important;        }        .=
+u-row .u-col {          vertical-align: top;        }                    .u=
+-row .u-col-100 {              width: 500px !important;            }       =
+         }      @media only screen and (max-width: 520px) {        .u-row-c=
+ontainer {          max-width: 100% !important;          padding-left: 0px =
+!important;          padding-right: 0px !important;        }        .u-row =
+{          width: 100% !important;        }        .u-row .u-col {         =
+ display: block !important;          width: 100% !important;          min-w=
+idth: 320px !important;          max-width: 100% !important;        }      =
+  .u-row .u-col > div {          margin: 0 auto;        }        .u-row .u-=
+col img {          max-width: 100% !important;        }}    body{margin:0;p=
+adding:0}table,td,tr{border-collapse:collapse;vertical-align:top}p{margin:0=
+}.ie-container table,.mso-container table{table-layout:fixed}*{line-height:=
+inherit}a[x-apple-data-detectors=3Dtrue]{color:inherit!important;text-decor=
+ation:none!important}table, td { color: #000000; } #u_body a { color: #0000=
+ee; text-decoration: underline; }    </style>    </head><body class=3D"clea=
+n-body u_body" style=3D"margin: 0;padding: 0;-webkit-text-size-adjust: 100%=
+;background-color: #F7F8F9;color: #000000">  <!--[if IE]><div class=3D"ie-c=
+ontainer"><![endif]-->  <!--[if mso]><div class=3D"mso-container"><![endif]=
+-->  <table role=3D"presentation" id=3D"u_body" style=3D"border-collapse: c=
+ollapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-tab=
+le-rspace: 0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;backgrou=
+nd-color: #F7F8F9;width:100%" cellpadding=3D"0" cellspacing=3D"0">  <tbody>=
+  <tr style=3D"vertical-align: top">    <td style=3D"word-break: break-word=
+;border-collapse: collapse !important;vertical-align: top">    <!--[if (mso=
+)|(IE)]><table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cells=
+pacing=3D"0" border=3D"0"><tr><td align=3D"center" style=3D"background-colo=
+r: #F7F8F9;"><![endif]-->        <div class=3D"u-row-container" style=3D"pa=
+dding: 0px;background-color: transparent">  <div class=3D"u-row" style=3D"m=
+argin: 0 auto;min-width: 320px;max-width: 500px;overflow-wrap: break-word;w=
+ord-wrap: break-word;word-break: break-word;background-color: transparent;"=
+>    <div style=3D"border-collapse: collapse;display: table;width: 100%;hei=
+ght: 100%;background-color: transparent;">      <!--[if (mso)|(IE)]><table =
+role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0"><tr><td style=3D"padding: 0px;background-color: transparent;" al=
+ign=3D"center"><table role=3D"presentation" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" style=3D"width:500px;"><tr style=3D"background-color: t=
+ransparent;"><![endif]-->      <!--[if (mso)|(IE)]><td align=3D"center" wid=
+th=3D"500" style=3D"width: 500px;padding: 0px;border-top: 0px solid transpa=
+rent;border-left: 0px solid transparent;border-right: 0px solid transparent=
+;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-rad=
+ius: 0px; -moz-border-radius: 0px;" valign=3D"top"><![endif]--><div class=
+=3D"u-col u-col-100" style=3D"max-width: 320px;min-width: 500px;display: ta=
+ble-cell;vertical-align: top;">  <div style=3D"height: 100%;width: 100% !im=
+portant;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: =
+0px;">  <!--[if (!mso)&(!IE)]><!--><div style=3D"box-sizing: border-box; he=
+ight: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px=
+ solid transparent;border-right: 0px solid transparent;border-bottom: 0px s=
+olid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border=
+-radius: 0px;"><!--<![endif]-->  <table style=3D"font-family:arial,helvetic=
+a,sans-serif;" role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" border=3D"0">  <tbody>    <tr>      <td style=3D"overflow-wrap=
+:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,=
+sans-serif;" align=3D"left">        <table role=3D"presentation" width=3D"1=
+00%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">  <tr>    <td style=
+=3D"padding-right: 0px;padding-left: 0px;" align=3D"center">            <im=
+g align=3D"center" border=3D"0" src=3D"https://npf-unlayer.s3.ap-south-1.am=
+azonaws.com/unlayer/images/1789449612708-WhatsApp%20Image%202026-09-15%20at=
+%2010.47.10%20AM.jpeg" alt=3D"" title=3D"" style=3D"outline: none;text-deco=
+ration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-bl=
+ock !important;border: none;height: auto;float: none;width: 100%;max-width:=
+ 480px;" width=3D"480"/>          </td>  </tr></table>      </td>    </tr> =
+ </tbody></table><table style=3D"font-family:arial,helvetica,sans-serif;" r=
+ole=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" bor=
+der=3D"0">  <tbody>    <tr>      <td style=3D"overflow-wrap:break-word;word=
+-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" ali=
+gn=3D"left">          <div style=3D"font-size: 14px; line-height: 140%; tex=
+t-align: left; word-wrap: break-word;">    <p style=3D"line-height: 140%;">=
+Dear Student,</p><p style=3D"line-height: 140%;">&nbsp;</p><p style=3D"line=
+-height: 140%;">=F0=9F=9A=A8<strong> THIS IS YOUR LAST CHANCE!</strong></p>=
+<p style=3D"line-height: 140%;">&nbsp;</p><p style=3D"line-height: 140%;">B=
+egin your academic journey at PCET&rsquo;s <strong>Pimpri Chinchwad Univers=
+ity</strong> for AY 2026&ndash;27.</p><p style=3D"line-height: 140%;">&nbsp=
+;</p><p style=3D"line-height: 140%;">=F0=9F=8E=93<strong> SPOT ADMISSIONS A=
+RE NOW OPEN</strong>, but ONLY A FEW SEATS ARE LEFT.</p><p style=3D"line-he=
+ight: 140%;">&nbsp;</p><p style=3D"line-height: 140%;">At <strong>PCET&rsqu=
+o;s Pimpri Chinchwad University</strong>, students get access to career-foc=
+used education along with a<strong> Centralized Placement Cell </strong>tha=
+t supports students through:</p><p style=3D"line-height: 140%;">&nbsp;</p><=
+p style=3D"line-height: 140%;">=F0=9F=92=BC Career Guidance<br />=F0=9F=A4=
+=9D Internships &amp; Industry Interactions<br />=F0=9F=9A=80 Placement Opp=
+ortunities<br />=F0=9F=8C=9F Industry-oriented learning</p><p style=3D"line=
+-height: 140%;">&nbsp;</p><p style=3D"line-height: 140%;"><strong>Why Wait?=
+</strong></p><p style=3D"line-height: 140%;">&nbsp;</p><p style=3D"line-hei=
+ght: 140%;">=F0=9F=8E=93 Spot Admission &ndash; Limited Seats<br />=F0=9F=
+=92=BC Centralized Placement Cell<br />=F0=9F=9A=80 Career-focused &amp; in=
+dustry-oriented learning<br />=F0=9F=8C=9F Programs designed to prepare stu=
+dents for future opportunities</p><p style=3D"line-height: 140%;">=F0=9F=9A=
+=A8 NO FURTHER DEADLINE EXTENSION.</p><p style=3D"line-height: 140%;">=E2=
+=8F=B0 Take the final step towards your future.</p><p style=3D"line-height:=
+ 140%;">&nbsp;</p><p style=3D"line-height: 140%;">=F0=9F=91=89 <strong>APPL=
+Y NOW:</strong></p><p style=3D"line-height: 140%;"><br /><a href=3D"https:/=
+/delivery.pcu.edu.in/MPBHZINGF?id=3D197048=3Dd0VRCF8FUwJaSAIFAQUDVwkDAFcLBV=
+FQCldYBgcFBVIBAAMIB1FTUlFVAQNUAFFQCFxPRFdVDARBXlgWQEMNUQQJV3kBXwJfDhpXCVpJU=
+wYJXAcDAgZSVAYOAFIMCFQfXE0VSRUITBkGUVgPQVAQSB8VUEccVQYQHF9XSnlhJitucC9+IA0K=
+Uh5CBw=3D=3D&fl=3DXE0VSRUITBkDREQKThsSUkRLVlZHHgsLHQ=3D=3D">https://apply.p=
+cu.edu.in/</a></p><p style=3D"line-height: 140%;">&nbsp;</p><p style=3D"lin=
+e-height: 140%;"><strong>Secure your seat today before the remaining seats =
+are filled.</strong></p>  </div>      </td>    </tr>  </tbody></table><tabl=
+e style=3D"font-family:arial,helvetica,sans-serif;" role=3D"presentation" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=3D"0">  <tbody>   =
+ <tr>      <td style=3D"overflow-wrap:break-word;word-break:break-word;padd=
+ing:10px;font-family:arial,helvetica,sans-serif;" align=3D"left">          =
+<!--[if mso]><style>.v-button {background: transparent !important;}</style>=
+<![endif]--><div align=3D"center">  <!--[if mso]><v:roundrect xmlns:v=3D"ur=
+n:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:wo=
+rd" href=3D"https://delivery.pcu.edu.in/MPBHZINGF?id=3D197048=3Dd0VRCF8FUwJ=
+aSAIFAQUDVwkDAFcLBVFQCldYBgcFBVIBAAMIB1FTUlFVAQNUAFFQCFxPRFdVDARBXlgWQEMNUQ=
+QJV3kBXwJfDhpXCVpJUwYJXAcDAgZSVAYOAFIMCFQfXE0VSRUITBkGUVgPQVAQSB8VUEccVQYQH=
+F9XSnlhJitucC9+IA0KUh5CBw=3D=3D&fl=3DXE0VSRUITBkDREQKThsSUkRLVlZHHgsLHQ=3D=
+=3D" style=3D"height:37px; v-text-anchor:middle; width:112px;" arcsize=3D"1=
+1%"  stroke=3D"f" fillcolor=3D"#e03a3d"><w:anchorlock/><center style=3D"col=
+or:#FFFFFF;"><![endif]-->    <a href=3D"https://delivery.pcu.edu.in/MPBHZIN=
+GF?id=3D197048=3Dd0VRCF8FUwJaSAIFAQUDVwkDAFcLBVFQCldYBgcFBVIBAAMIB1FTUlFVAQ=
+NUAFFQCFxPRFdVDARBXlgWQEMNUQQJV3kBXwJfDhpXCVpJUwYJXAcDAgZSVAYOAFIMCFQfXE0VS=
+RUITBkGUVgPQVAQSB8VUEccVQYQHF9XSnlhJitucC9+IA0KUh5CBw=3D=3D&fl=3DXE0VSRUITB=
+kDREQKThsSUkRLVlZHHgsLHQ=3D=3D" target=3D"_blank" class=3D"v-button" style=
+=3D"box-sizing: border-box;display: inline-block;text-decoration: none;-web=
+kit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-co=
+lor: #e03a3d; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-ra=
+dius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-brea=
+k: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;"=
+>      <span style=3D"display:block;padding:10px 20px;line-height:120%;"><s=
+trong><span style=3D"line-height: 16.8px;">Apply Now</span></strong></span>=
+    </a>    <!--[if mso]></center></v:roundrect><![endif]--></div>      </t=
+d>    </tr>  </tbody></table>  <!--[if (!mso)&(!IE)]><!--></div><!--<![endi=
+f]-->  </div></div><!--[if (mso)|(IE)]></td><![endif]-->      <!--[if (mso)=
+|(IE)]></tr></table></td></tr></table><![endif]-->    </div>  </div>  </div=
+>      <!--[if (mso)|(IE)]></td></tr></table><![endif]-->    </td>  </tr>  =
+</tbody>  </table>  <!--[if mso]></div><![endif]-->  <!--[if IE]></div><![e=
+ndif]--><p>&nbsp;<br></p>
+<img src=3D'https://delivery.pcu.edu.in/MPBHZINGF?id=3D197048=3De0VRCF8FUwJ=
+aSBRGFxVCERFFExISEEJFEhYZRRQRREMUGUEZRhJDFkIUFEYXFUIREVVPRFdVDARBXlgWQEMNUQ=
+QJV3kBXwJfDhpXCVpJUwYJXAcDAgZSVAYOAFIMCFQfXE0VSRUITBkGUVgPQVAQSB8VUEccVQYQH=
+F9XSnlhJitucC9+IA0KUh5CBw=3D=3D' alt=3D'' /></body></html>Click <a href=3D"=
+https://delivery.pcu.edu.in/MPBHZINGF?id=3D197048=3DYUVRCF8FUwJaSBRGFxVCERF=
+FExISEEJFEhYZRRQRREMUGUEZRhJDFkIUFEYXFUIREVVPRFdVDARBXlgWQEMNUQQJV3kBXwJfDh=
+pXCVpJUwYJXAcDAgZSVAYOAFIMCFQfXE0VSRUITBkGUVgPQVAQSB8VUEccVQYQHF9XSnlhJituc=
+C9+IA0KUh5CBw=3D=3D">here</a> to unsubscribe=
+=
+
+--_----------=_1789450489145473112--
+

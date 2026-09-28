@@ -1,0 +1,51 @@
+{
+  "bundle_version": "0.1",
+  "artifact": {
+    "filename": "Security alert (1).eml",
+    "sha256": "e5fd53da849c0af12c9455afa9d96a110feca6c7ccffe7023adc87c86f7b70ad",
+    "size_bytes": 12231,
+    "collected_at": "2026-09-27T17:34:39Z",
+    "source": "mailguard_final"
+  },
+  "email": {
+    "message_id": "<BeiDmh569GPpubWac1Ofeg@notifications.google.com>",
+    "received_at": "2026-09-20T16:23:22Z",
+    "subject": "Security alert",
+    "from_addr": "no-reply@accounts.google.com",
+    "body_norm": "[image: Google] Recovery phone was changed testpipelineinbox@gmail.com The recovery phone for your account was changed. If you didn't change it, you should check what happened. Check activity <https://accounts.google.com/AccountChooser?Email=testpipelineinbox@gmail.com&continue=https://myaccount.google.com/alert/nt/1789921402181?rfn%3D4%26rfnc%3D1%26eid%3D-76323513193845878%26et%3D0> You can also see security activity at https://myaccount.google.com/notifications You received this email to let you know about important changes to your Google Account and services. \u00a9 2026 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA"
+  },
+  "part1": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "pass",
+    "trust_boundary_ip": "209.85.220.73"
+  },
+  "part2": {
+    "asn": 15169,
+    "asn_org": "Google LLC",
+    "urls": [
+      {
+        "url": "https://accounts.google.com/AccountChooser?Email=testpipelineinbox@gmail.com&amp;continue=https://myaccount.google.com/alert/nt/1789921402181?rfn%3D4%26rfnc%3D1%26eid%3D-76323513193845878%26et%3D0",
+        "final_url": "https://accounts.google.com/v3/signin/identifier?Email=testpipelineinbox@gmail.com&dsh=S-1691522816:1790530475528699&passive=1209600&sacu=1&flowName=WebLiteSignIn&flowEntry=ServiceLogin",
+        "final_domain": "accounts.google.com"
+      },
+      {
+        "url": "https://myaccount.google.com/notifications",
+        "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S873181127:1790530476865881",
+        "final_domain": "accounts.google.com"
+      },
+      {
+        "url": "https://accounts.google.com/AccountChooser?Email=testpipelineinbox@gmail.com&continue=https://myaccount.google.com/alert/nt/1789921402181?rfn%3D4%26rfnc%3D1%26eid%3D-76323513193845878%26et%3D0",
+        "final_url": "https://accounts.google.com/v3/signin/identifier?Email=testpipelineinbox@gmail.com&continue=https://myaccount.google.com/alert/nt/1789921402181?rfn%3D4%26rfnc%3D1%26eid%3D-76323513193845878%26et%3D0&dsh=S286006542:1790530477694109&passive=1209600&sacu=1&flowName=WebLiteSignIn&flowEntry=ServiceLogin",
+        "final_domain": "accounts.google.com"
+      },
+      {
+        "url": "https://myaccount.google.com/notifications",
+        "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-686046529:1790530479322671",
+        "final_domain": "accounts.google.com"
+      }
+    ],
+    "attachments": [],
+    "risk_score": 1.0
+  }
+}

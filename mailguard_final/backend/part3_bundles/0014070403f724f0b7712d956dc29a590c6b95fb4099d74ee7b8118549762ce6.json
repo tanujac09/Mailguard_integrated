@@ -1,0 +1,56 @@
+{
+  "bundle_version": "0.1",
+  "artifact": {
+    "filename": "legit_sample1.eml",
+    "sha256": "0014070403f724f0b7712d956dc29a590c6b95fb4099d74ee7b8118549762ce6",
+    "size_bytes": 35991,
+    "collected_at": "2026-09-27T19:16:46Z",
+    "source": "mailguard_final"
+  },
+  "email": {
+    "message_id": "<91.82.22057.2F354AA6@i-0ddd0f7bcd8e65296.mta1vrest.sd.prd.sparkpost>",
+    "received_at": "2026-09-11T19:18:10Z",
+    "subject": "Two new free courses: Code in Place X and Probability for AI",
+    "from_addr": "no-reply@m.learn.coursera.org",
+    "body_norm": "A message from our friends at Stanford School of Engineering's Code in Place: This fall, we're launching two new courses that rethink what online learning looks like in the age of AI. Free to take, open to everyone. Code in Place X 6-Week Program beginning on October 12, Orientation starts on October 7 * Learn to program \u2014 and to explain what you build, a skill that matters more as AI writes more of the code. * Meet weekly with your volunteer section leader and group, in one of the largest teaching communities of any course in the world. * Walk away able to build working programs and clearly communicate your work. Applications are due on September 28 * Apply to CiPX as a student <https://link.coursera.org/f/a/uIT-NeMgR2IKPOFWEncp7Q~~/AAQRxRA~/GF6NFv8P6FrTLZ-789gnTpPZQRd1gq-gzu93wAb82s9bh67y4Ozb4cURDxY4L_NolQ9wOc72NN1o8vuA0oX2TDK5VQYAVcuS0mqs24y8Ou35C86LHxbFuavoUzGHW374cjd1ElLHL4QAKnGRhbzq6BXUYkXRbQ0t_h-2nEojhoDLTK4qXGj-rNmwLoahODwaAO3l04ULFuci8UWeT3weyc3qWCB0UIyt7q17lzeC_wTjoPWdYQ3N-W6drYftJm17Z59zi59-xHZHgVDOHpyXVtBALEwwmgT3etOOICw7HDz_OtoAZW-TL8jWFDZotL_3> * Apply to teach CiPX <https://link.coursera.org/f/a/YcLMWZ3We5FFf79ab3AbMg~~/AAQRxRA~/fy2R70BHXpzo2s89a2sbSlG_8KClg53vCDzjOZgTpmJ8J4_YHOglsAk1readJgD07kOQK2BusCLdNqa0p-ECMpIZTQkbyBmJ8GCzPe6MpUAdBjeORNORG_ztdFkFlXhqBjwBuG4Vq8S5nmhPlSD-hGfPRw5Rz4GGyCl4ackvOlU-o_ws0Yta5MTprlErY4yv_q97qd1eFd3UoCaDI-9BPRG1JIugS0hzmoFACLaVo-ToSRhRQbn55SrveeHfl0SQ-izGpMOtFeG9LKCLaqGE5ZP7cNXrThzox4K8D8OIEuHx8W-3CKgrQPK3jbSkegJL> Probability for AI 6-Week Program beginning on October 12, Orientation starts on October 7 * Understand how AI actually works, not just how to use it. No prerequisites, no experience needed. * Meet weekly with your volunteer section leader and group, and build as you go with our free Code Agent tools. * Walk away with a real grasp of neural networks and a portfolio of shareable apps you built. Applications are due on September 26 * Apply to PAI as a student <https://link.coursera.org/f/a/2PSloUaupXTAydJMvqlFwg~~/AAQRxRA~/Ag4d8aZu3sB_hsJBamdVcwSvmF-Cm4uYnCguGYdwJ49cdaPdIW_L0xyXjqS_nOBUUpFJWl3aHNEubjVYvtxLDl8I8JtQ_Ek6iyNtEMcKY7BWXqUxR-soi4gJ_eL5ZvnpfVupqhvY7dg2xKAyA3MDp1lnDmwuAa6EFLTh1moLaU_hlV9EBFGRlF0Rci9_BdGYBTrrlQ5W4zkb81oAf6pRXHoB5URH8OtCj7AcTXPJzAkZNe20dz3ndgil9P9NBAOw-2KZ2SNBlY9nIPnEJoswfsuohkfWDtL7ilYaK1qQcfc2Np4nPerbQLu3rgspWBbk> * Apply to teach PAI <https://link.coursera.org/f/a/9oGJQhZcqd0r5Tw3zqItwg~~/AAQRxRA~/sTQAQufUShnqeoCZVWWGEplTafdszpqvmQDOuMpDiqQP3_rW5a7mse0IyUVgunOrEK8svNFvCWt3n1LXEFg-k0hIwAtCqq1fIHD4CX1wirb6KXpFxtatvDU-Dp2Ov-6JqXva5rScU_uETKX_VwBJy_3jQUm4dOuokpC876UdPJnezQ7XcXl07Tz4pRAFqwIiZXXkcVcr4ECpZJ1-qFWf5e50w0SINVXkHBABdlkF9-edrtxvMsyeI9NrcDAMsAQ1yAQri8DNDulBbiC9elH7dJP82EEgUjowaU101mv6QKIHPOk-3c5bQ7cH6QcDngNC> For any questions about either program, please contact codeinplace@stanford.edu <mailto:codeinplace@stanford.edu> . Stanford Online You are receiving this email because veenashastri2006@gmail.com is registered for promotional emails from Stanford Online on Coursera. Please do not reply directly to this email. If you have any questions or feedback, please visit our learner help center <https://link.coursera.org/f/a/uri69u-gd62ip9XJY8EVpA~~/AAQRxRA~/E6YBv4fQhvrjXpLQDM0RVzzgsdCc1If6d4fZhG8m2prxweIWj122G9x5XTcRVYcohEQ4O_TkPLYDQzdndL5006kl3-GhjkHa51uzVXdoo2wmneKyPHDeXgA3gnYNuHeWRuk-BS80DolzDqxf47AWosb363Wytk0KJ9ZStftruoBgv3Mj4ujph5kkP-fkDmHq_54yMsBojo3O2yyHLQ2_jE9rsqJQ16YOwzSF6RVkInTNL1wszd-beLTGAnz_KOsLxdmQuUTgiO3qoQr7nDCQcSdUNzD0z2VNXO8FTu_rui9-TS2pCFSBctlcez_OEQKn> . [facebook] <https://link.coursera.org/f/a/UbxZJqHWsyJA--dxZlnqTQ~~/AAQRxRA~/T8oteTmNbEHIWdzGAb77lNXvi2reGM2GmmvIX0I4FAwOKahQ1GBtkDDKtytb4INC2f5LjGGNRyZrbbTBOEKRvQq8Jq4ku8OfuuHL6VvLPZKIiQfiwXkarmYqpmZTPFETN3YxQV1xynglYySZyVRC1y2tQqIRJPYIUWPsXeWsRTyKHWfhJB46PrmBoEfm5fsCt3QeYC5O7DcGLukMy0MUaNZpkmvE5awvTqKIZ3n6F5ik5vUDP3q_Ly7MxlZ9Cbu9Er6H1F01N2C5R0jL7-EwEyVco86UXCuDg_dKep4Z8BM~> [twitter] <https://link.coursera.org/f/a/1js_fv8iuY9RqxlAq64ZiA~~/AAQRxRA~/ijMxJdpEav1gKMqvyIwZoeZ1wkrM6eKAQtwIpP9NY24FGs5Vq--b4f1UpRzI_FqRmju0yA7NoOdrlwgbVxNvtIstgcZtkyeRhaAjkhaQNvnTgPQnewD5v6-xJueNYhLETzLT2V07LSZVK5jQ201RtA-ytLC5B4AzDyhmHdTnQziOeMIRSdRoKL9EQmt7IoJotqgbJKFpr8ZqlzULB0d_uCAAAHI_KcLNvtwCy9NoEVP3vJkEyR-3U7annHElxnL52Ft-o0Xkt5NqwRlhqPAIynYf2P0otu0fBmKvVG5DN-4~> [blog] <https://link.coursera.org/f/a/ig62PIF2_hlc0HACEm7djA~~/AAQRxRA~/SyY7BlLvEEnCKhaMfOpfEt18du8MDfzSFVqswwy3lyYIkRcIEs1Z_48VJ2dH-QsYioxUnwCzJXntw-VjZP-Db3tNes272QobQ7tTFuDnEgoc_e6ZRLGOG70QlolrX6cYx9akDENujOU79mOAil24LElLmm6_0pZnX6hhKA7pfa6n-9k7WFUj-2cDssiCxqnbPn4WF8AsgivvSMoy8ylEooTuYN6gfaH0h3I7JJYVSNG7Om-sSZ_IROb88cT9VLattohS2GuzO5IgPX6I4a2zzvFrCN9kEZPHZ_wJ68ukqT8~> [blog] <https://link.coursera.org/f/a/R2iiZBAEs0-ghEfx_HaW2A~~/AAQRxRA~/GF6NFv8P6FrTLZ-789gnTlINeWIi73fqhZVevuHztt9Ycyz9ecFmLsBJRH_9niPLzu1qLqXC0BR4uR4m2i4vEGLXcNPl-ZhQUb5W4LSxy42JFpO3OnHxo2W7KeRrhxepl-5a0tZdghoqLzmn7v7VhjYPWKZwJMimsj3_iUqP6QLawna1LnxtRFpLDUFb-8etDRgFtHSM9E3Juen_EYNnudGX89z8O-h99wZZWXFXuy_hfBbKj6N_f1Mp6dZ77DDEktvEBH-VKjZSPSQxKyHHR8Eno_Mex5EKSxVIr6JzsH4Cygkiyp5tA4xCvm96pwlm> [ Coursera ] <https://link.coursera.org/f/a/g2nfD6o34gRsg6EuP7eW8g~~/AAQRxRA~/aMtLicF3Mp9mRr5KaRGEOzJU1J8IaN_cq-99pP9c3T5E9qbmQAz-LmGtnlzWXj1Hpen6BaWdsrUUfJDdrj5ah40SZ4HWsk4dbtBRR-2PHAz-dJnSDdP6VVpiuMw-etHPIDgsEj5vxKmCdtXcPH7-jqiAiWxJoXfNF0MhvaCuDHlGvXj2NlSOx_JkbIdcVDCsz9JqbFCwESHrvy0cagtkR_yxxx1XyS5mavhxUUKiNtRgBTybJnOdF0nxwpu-iAhuarDR3lZOJQrbDPcaNEU76HXHHifmYtR9_HY34zrjqpM~> Copyright (c) 2026 Coursera, Inc | 2440 West El Camino Real, Suite 500, Mountain View, CA 94040 USA To opt-out of receiving emails from this Partner, unsubscribe here. <https://link.coursera.org/f/a/Kd8IaxaF9vDvQYT5Ububqw~~/AAQRxRA~/eIGQnBxpj4h_bgkHqqAQd2RMoJJDF4qDnkdoWERTa6a5Vkefin2K5S1Nj3EdfBzBO6hcs2Eez7Dlzee-38-PMrGba70gXI_wlOtdL7Hypoz9Hs8VuNCeicksVz-J3hhh6E2Z5ZUL2YtVtiBpwD8gUo32Sv0hyxjwoOIkc9WK9QQ6gBjmVEDRWrPhEBLRpDh-FOyDMZxVZ6Ohz-8bn2slfeEJUiCB_gTSLhIsqJ6MvYmROklCDI8VeHyvSqqAt2v9Ff1OH870w0aJeI1MoDLT16BFSIGgIVG4H39E4-ExjyEjUH90rPN7F1HCqyqtq_3TeH7UBPTd8TeKvVB3lDCC_lsvTSsXNbkQmBgbuFZ8jGLq7DwZ8lX224zqHiI3KN0LTnAqUSo_cX3Ione0-T5WLKLNgMyORojGAA3EZVzV22kVkbTKa8G1kie81NhXajEsJKFFlOtDrc2lLQ05yS2iphBW7vMYN3co07_-jUJ_8Ep0W6H554e2IXS3wqonbxCP6OFy-MQwZCchxp3HfEyy7ALghLOZCtkoeMt1N099uoBs1Auh6SzdPF-KjW6NYnoBQaTLfhGLUBmf0MVFZjj2VwbyZguRY50tZlxRa8pBEza5dtKC4C9wPMRi_XRb6wuoS82006HGLqspgKYWuA_jHQ~~>"
+  },
+  "part1": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "pass",
+    "trust_boundary_ip": "5.3.0.13"
+  },
+  "part2": {
+    "asn": 31483,
+    "asn_org": "JSC ER-Telecom Holding",
+    "urls": [
+      {
+        "url": "https://link.coursera.org/f/a/uIT-NeMgR2IKPOFWEncp7Q~~/AAQRxRA~/GF6NFv8P6FrTLZ-789gnTpPZQRd1gq-gzu93wAb82s9bh67y4Ozb4cURDxY4L_NolQ9wOc72NN1o8vuA0oX2TDK5VQYAVcuS0mqs24y8Ou35C86LHxbFuavoUzGHW374cjd1ElLHL4QAKnGRhbzq6BXUYkXRbQ0t_h-2nEojhoDLTK4qXGj-rNmwLoahODwaAO3l04ULFuci8UWeT3weyc3qWCB0UIyt7q17lzeC_wTjoPWdYQ3N-W6drYftJm17Z59zi59-xHZHgVDOHpyXVtBALEwwmgT3etOOICw7HDz_OtoAZW-TL8jWFDZotL_3",
+        "final_url": "https://codeinplace.stanford.edu/apply/cipx/student?utm_medium=email&utm_source=other&utm_campaign=partner.1.opencourse.targetedmessages.marketing~partner.1.GQpgty63RLCPX7MUK3lUGQ",
+        "final_domain": "codeinplace.stanford.edu"
+      },
+      {
+        "url": "https://link.coursera.org/f/a/YcLMWZ3We5FFf79ab3AbMg~~/AAQRxRA~/fy2R70BHXpzo2s89a2sbSlG_8KClg53vCDzjOZgTpmJ8J4_YHOglsAk1readJgD07kOQK2BusCLdNqa0p-ECMpIZTQkbyBmJ8GCzPe6MpUAdBjeORNORG_ztdFkFlXhqBjwBuG4Vq8S5nmhPlSD-hGfPRw5Rz4GGyCl4ackvOlU-o_ws0Yta5MTprlErY4yv_q97qd1eFd3UoCaDI-9BPRG1JIugS0hzmoFACLaVo-ToSRhRQbn55SrveeHfl0SQ-izGpMOtFeG9LKCLaqGE5ZP7cNXrThzox4K8D8OIEuHx8W-3CKgrQPK3jbSkegJL",
+        "final_url": "https://codeinplace.stanford.edu/apply/cipx/sl?utm_medium=email&utm_source=other&utm_campaign=partner.1.opencourse.targetedmessages.marketing~partner.1.GQpgty63RLCPX7MUK3lUGQ",
+        "final_domain": "codeinplace.stanford.edu"
+      },
+      {
+        "url": "https://link.coursera.org/f/a/2PSloUaupXTAydJMvqlFwg~~/AAQRxRA~/Ag4d8aZu3sB_hsJBamdVcwSvmF-Cm4uYnCguGYdwJ49cdaPdIW_L0xyXjqS_nOBUUpFJWl3aHNEubjVYvtxLDl8I8JtQ_Ek6iyNtEMcKY7BWXqUxR-soi4gJ_eL5ZvnpfVupqhvY7dg2xKAyA3MDp1lnDmwuAa6EFLTh1moLaU_hlV9EBFGRlF0Rci9_BdGYBTrrlQ5W4zkb81oAf6pRXHoB5URH8OtCj7AcTXPJzAkZNe20dz3ndgil9P9NBAOw-2KZ2SNBlY9nIPnEJoswfsuohkfWDtL7ilYaK1qQcfc2Np4nPerbQLu3rgspWBbk",
+        "final_url": "https://pai.stanford.edu/apply/pai1/student?utm_medium=email&utm_source=other&utm_campaign=partner.1.opencourse.targetedmessages.marketing~partner.1.GQpgty63RLCPX7MUK3lUGQ",
+        "final_domain": "pai.stanford.edu"
+      },
+      {
+        "url": "https://link.coursera.org/f/a/9oGJQhZcqd0r5Tw3zqItwg~~/AAQRxRA~/sTQAQufUShnqeoCZVWWGEplTafdszpqvmQDOuMpDiqQP3_rW5a7mse0IyUVgunOrEK8svNFvCWt3n1LXEFg-k0hIwAtCqq1fIHD4CX1wirb6KXpFxtatvDU-Dp2Ov-6JqXva5rScU_uETKX_VwBJy_3jQUm4dOuokpC876UdPJnezQ7XcXl07Tz4pRAFqwIiZXXkcVcr4ECpZJ1-qFWf5e50w0SINVXkHBABdlkF9-edrtxvMsyeI9NrcDAMsAQ1yAQri8DNDulBbiC9elH7dJP82EEgUjowaU101mv6QKIHPOk-3c5bQ7cH6QcDngNC",
+        "final_url": "https://pai.stanford.edu/apply/pai1/sl?utm_medium=email&utm_source=other&utm_campaign=partner.1.opencourse.targetedmessages.marketing~partner.1.GQpgty63RLCPX7MUK3lUGQ",
+        "final_domain": "pai.stanford.edu"
+      },
+      {
+        "url": "mailto:codeinplace@stanford.edu",
+        "final_url": "mailto:codeinplace@stanford.edu",
+        "final_domain": null
+      }
+    ],
+    "attachments": [],
+    "risk_score": 0.023
+  }
+}

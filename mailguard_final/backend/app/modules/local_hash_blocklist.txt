@@ -1,0 +1,5 @@
+# One SHA-256 hash per line. Lines starting with # are ignored.
+# Add hashes of known-malicious attachments here (e.g. exported from
+# a threat-intel feed, a previous incident, or VirusTotal).
+# Example (fake hash, for format reference only):
+# e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
